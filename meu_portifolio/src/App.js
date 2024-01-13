@@ -1,4 +1,8 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import capaRideApp from './images/carousel/ride-web-app/capa-carousel.png'
 
 function App() {
   return (
@@ -15,8 +19,33 @@ function App() {
       <div className='content uno'>
 
       </div>
-      <div className='content dos'>
+      <div className='content projects'>
+          <div className="carousel slide" id='meuCarousel'>
+            <div className='carousel-inner'>
 
+
+
+              
+              <div className='carousel-item'>
+                <div className="d-block w-50 carrosel"></div>
+                {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
+              </div>
+              <div className='carousel-item'>
+              <div className="d-block w-50 carrosel1"></div>
+                {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
+              </div>
+              <div className='carousel-item active'>
+              <div className="d-block w-50 carrosel2"></div>
+                {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
+              </div>
+              <button className="carousel-control-prev" data-bs-target="#meuCarousel" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
+              </button>
+              <button className="carousel-control-next" data-bs-target="#meuCarousel" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
       </div>
      </div>
     </div>

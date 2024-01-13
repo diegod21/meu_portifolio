@@ -34,7 +34,7 @@
 .content{
   height: 100vh;
 }
-.dos{
+.projects{
   background-color: green;
 }
 .uno{
@@ -45,6 +45,10 @@
   margin-top: 25%;
   margin-left: 15%;
   color: greenyellow;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .title{
   font-weight: bolder;
@@ -70,8 +74,10 @@
   transition: 0.5s;
 }
 .footer{
-  margin-top:35%;
   color: greenyellow;
+  position: fixed;
+  bottom: 0;
+  
 }
 .footer a{
   color: greenyellow;
@@ -79,3 +85,17 @@
 .footer a:hover{
   color: black;
 }
+.carrosel{
+  width: 20px;
+  height: 50px;
+  background-color: black;}
+
+  .carrosel1{
+    width: 20px;
+    height: 50px;
+    background-color: blue;}
+
+    .carrosel2{
+      width: 20px;
+      height: 50px;
+      background-color: gray;}
