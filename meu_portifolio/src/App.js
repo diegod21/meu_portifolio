@@ -31,11 +31,11 @@ function App() {
                 {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
               </div>
               <div className='carousel-item'>
-              <div className="d-block w-50 carrosel1"></div>
+              <div className="d-block w-50 carrosel"></div>
                 {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
               </div>
               <div className='carousel-item active'>
-              <div className="d-block w-50 carrosel2"></div>
+              <div className="d-block w-50 carrosel webRide"></div>
                 {/* <img src="./images/carousel/ride-web-app/capa-carousel.png"></img> */}
               </div>
               <button className="carousel-control-prev" data-bs-target="#meuCarousel" data-bs-slide="prev">
