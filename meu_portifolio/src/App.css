@@ -105,21 +105,39 @@
   margin: auto;
 }
 .carousel-inner{
-  padding-top: 30%;
+  padding-top: 20%;
   
   
 }
 .carousel-inner button{
   padding-top: 30%;
 }
-.webRide{
+.webRide , .i0{
   background: linear-gradient(to top, #000000, #000000a6, #00000060, #00000005), url('images/carousel/ride-web-app/capa-carousel.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
   border: 1px solid black;
   padding: 20px;
   border-radius: 10%;
   
 }
+.f1{
+   background: url('images/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+  }
+  .f2{
+    background: url('images/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .f3{
+    background: url('images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }

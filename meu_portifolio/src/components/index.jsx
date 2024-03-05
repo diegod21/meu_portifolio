@@ -28,13 +28,13 @@ function Home() {
                     <div className="carousel slide" id='meuCarousel'>
                         <div className='carousel-inner'>
                             <div className='carousel-item'>
-                                <div className="d-block w-50 carrosel"></div>
+                                <div className="d-block w-50 carrosel webRide f3"></div>
                             </div>
                             <div className='carousel-item'>
-                                <div className="d-block w-50 carrosel"></div>
-                            </div>
+                                <div className="d-block w-50 carrosel webRide f2 "></div>
+                            </div> 
                             <div className='carousel-item active'>
-                               <div className="d-block w-50 carrosel webRide" onClick={webRideApp}></div>
+                               <div className="d-block w-50 carrosel webRide f1"></div>
                             </div>
                             <button className="carousel-control-prev" data-bs-target="#meuCarousel" data-bs-slide="prev">
                                 <span className="carousel-control-prev-icon"></span>
