@@ -17,7 +17,7 @@ function Home() {
                     <div className="title">Olá Eu Sou um Desenvolvedor Web</div>
                     <div className="paragrafo">Eu Sou Diego Carvalho. Eu Crio Sistemas Web Frontend<br></br>Usando Modernas Tecnologias.</div>
                     <div className="button">Vamos Trabalhar Juntos!</div>
-                    <div className="footer">Me Encontre No <a href="">GitHub</a> and <a href="">Linkedin</a><br></br>Baixe Meu <a href="">Currículo</a></div>
+                    <div className="footer">Me Encontre No <a href="https://github.com/diegod21/">GitHub</a> and <a href="https://www.linkedin.com/in/diego-carvalho-d3003/">Linkedin</a><br></br>Baixe Meu Currículo</div>
                 </div>
             </div>
             <div className='scroll'>
@@ -26,6 +26,7 @@ function Home() {
                 </div>
                 <div className='content projects'>
                     <div className="carousel slide" id='meuCarousel'>
+                        <a href="https://diegod21.github.io/ride-app/">
                         <div className='carousel-inner'>
                             <div className='carousel-item'>
                                 <div className="d-block w-50 carrosel webRide f3"></div>
@@ -43,6 +44,7 @@ function Home() {
                                 <span className="carousel-control-next-icon"></span>
                             </button>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
