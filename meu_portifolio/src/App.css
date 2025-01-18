@@ -34,11 +34,11 @@
 .content{
   height: 100vh;
 }
-.projects{
-  background-color: #D6D58E;
-}
+/* .projects{
+  background-color: #061a27;
+} */
 .uno{
-  background-color: #DBF227;
+  background-color: #595959;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 65%;
+  width: 55%;
   height: 85%;
 
   border-radius: 5px;
@@ -57,7 +57,7 @@
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 25%;
   margin-left: 15%;
-  color: #DBF227;
+  color: #FFF;
 
   display: flex;
   flex-direction: column;
@@ -78,22 +78,22 @@
   margin-top: 15%;
   padding: 10px;
   font-size: 1.1em;
-  border: 2px solid #DBF227;
+  border: 2px solid #FFF;
 }
 .button:hover{
   border: 2px solid black;
   color: black;
-  background-color: #DBF227;
+  background-color: #FFF;
   transition: 0.5s;
 }
 .footer{
-  color: #DBF227;
+  color: "#FFF";
   position: fixed;
   bottom: 0;
   
 }
 .footer a{
-  color: #DBF227;
+  color: #FFF;
 }
 .footer a:hover{
   color: black;
@@ -137,6 +137,19 @@
    }
    .f3{
     background: url('images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .f4{
+    background: url('images/HomeFilterVEiculos.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .f5{
+    background: url('images/Results.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
