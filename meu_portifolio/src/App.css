@@ -3,46 +3,38 @@
   padding: 0px;
 }
 
-.app {
-  background-color: aqua;
 
-  height: 100%;
-  width: 100%;
 
+.main{
   display: flex;
-  flex-direction: row;
-
+}
+.personalInfo{
+background-color: #042940;
+width: 50vw;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+height: 100vh;
+color: #FFF;
+text-align:  center;
 }
 
-.mainInfo,
-.scroll {
+.imageDiv{
+  background-color: #8C8C8C;
   width: 50vw;
-  height: 100vh;
-}
-
-.mainInfo {
-  background-color:  #042940;
-  position: fixed;
-
-}
-
-.scroll {
-  background-color: red;
-  margin-left: 50vw;
-  overflow-x: hidden;
-}
-.content{
-  height: 100vh;
-}
-/* .projects{
-  background-color: #061a27;
-} */
-.uno{
-  background-color: #595959;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  color: #FFF;
+  text-align: center;
 }
+
+.button{
+  align-self: center;
+}
+
 .img-perfil{
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,51 +45,6 @@
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.mainContent{
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 25%;
-  margin-left: 15%;
-  color: #FFF;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.title{
-  font-weight: bolder;
-  font-size: 1.7em;
-}
-.paragrafo{
-  margin-left: 10px;
-  font-size: 1.2em;
-}
-.button{
-  text-align: center;
-  border-radius: 20px;
-  width: 40%;
-  margin-top: 15%;
-  padding: 10px;
-  font-size: 1.1em;
-  border: 2px solid #FFF;
-}
-.button:hover{
-  border: 2px solid black;
-  color: black;
-  background-color: #FFF;
-  transition: 0.5s;
-}
-.footer{
-  color: "#FFF";
-  position: fixed;
-  bottom: 0;
-  
-}
-.footer a{
-  color: #FFF;
-}
-.footer a:hover{
-  color: black;
-}
 .carrosel{
   width: 20px;
   height: 400px;
@@ -105,52 +52,53 @@
   margin: auto;
 }
 .carousel-inner{
-  padding-top: 20%;
-  
+  padding-top: 10%;
+  background-color: #595959 
   
 }
 .carousel-inner button{
-  padding-top: 30%;
-}
-.webRide , .i0{
-  background: linear-gradient(to top, #000000, #000000a6, #00000060, #00000005), url('images/carousel/ride-web-app/capa-carousel.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  border: 1px solid black;
-  padding: 20px;
-  border-radius: 10%;
-  
+  /* padding-top: 22%; */
 }
 .f1{
-   background: url('images/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: top;
-  }
-  .f2{
-    background: url('images/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   }
-   .f3{
-    background: url('images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   }
-   .f4{
-    background: url('images/HomeFilterVEiculos.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   }
+  background: url('images/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 450px;
+  width: 450px;
+ }
+ .f2{
+  background: url('images/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+ }
+ .f3{
+  background: url('images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+ }
+ .f4{
+  background: url('images/HomeFilterVEiculos.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 450px;
+  margin: auto;
+  width: 450px;
+ }
 
-   .f5{
-    background: url('images/Results.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   }
+ .f5{
+  background: url('images/Results.PNG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 450px;
+  width: 450px;
+  margin: auto;
+ }
