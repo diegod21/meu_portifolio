@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd38dfdf.css",
+    "main.js": "/static/js/main.2075044f.js",
+    "static/js/787.aff33d2b.chunk.js": "/static/js/787.aff33d2b.chunk.js",
+    "static/media/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg": "/static/media/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.8dfa38e24cbc9be91aaf.jpg",
+    "static/media/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg": "/static/media/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.ff093512557ffde75dab.jpg",
+    "static/media/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg": "/static/media/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.306321d219c71c723094.jpg",
+    "static/media/d22.jpg": "/static/media/d22.af4dc5a6397519eaaedb.jpg",
+    "static/media/Results.PNG": "/static/media/Results.989ffc254984447c617a.PNG",
+    "static/media/HomeFilterVEiculos.PNG": "/static/media/HomeFilterVEiculos.4e4b60eeaf01c9347756.PNG",
+    "index.html": "/index.html",
+    "main.fd38dfdf.css.map": "/static/css/main.fd38dfdf.css.map",
+    "main.2075044f.js.map": "/static/js/main.2075044f.js.map",
+    "787.aff33d2b.chunk.js.map": "/static/js/787.aff33d2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd38dfdf.css",
+    "static/js/main.2075044f.js"
+  ]
+}
