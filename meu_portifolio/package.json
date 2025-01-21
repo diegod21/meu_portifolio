@@ -2,6 +2,7 @@
   "name": "meu_portifolio",
   "version": "0.1.0",
   "private": true,
+   "homepage": "https://diegod21.github.io/meu_portifolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -15,8 +16,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://<diegod21>.github.io/<meu_portifolio>"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
