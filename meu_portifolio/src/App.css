@@ -3,39 +3,37 @@
   padding: 0px;
 }
 
-
-
-.main{
+.main {
   display: flex;
 }
-.personalInfo{
-background-color: #042940;
-width: 50vw;
-display: flex;
-flex-direction: column;
-justify-content:space-between;
-height: 100vh;
-color: #FFF;
-text-align:  center;
+.personalInfo {
+  background-color: #042940;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
 }
 
-.imageDiv{
-  background-color: #8C8C8C;
+.imageDiv {
+  background-color: #8c8c8c;
   width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #FFF;
+  color: #fff;
   text-align: center;
 }
 
-.button{
+.button {
   align-self: center;
 }
 
-.img-perfil{
+.img-perfil {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,60 +43,77 @@ text-align:  center;
   border-radius: 5px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.carrosel{
+.carrosel {
   width: 20px;
   height: 400px;
   background-color: black;
   margin: auto;
 }
-.carousel-inner{
+.carousel-inner {
   padding-top: 10%;
-  background-color: #595959 
-  
+  background-color: #595959;
 }
-.carousel-inner button{
+.carousel-inner button {
   /* padding-top: 22%; */
 }
-.f1{
-  background: url('images/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg');
+.f1 {
+  background: url("images/Screenshot_2024-01-13-17-33-26-597_com.android.chrome.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
   height: 450px;
   width: 450px;
- }
- .f2{
-  background: url('images/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg');
+}
+.f2 {
+  background: url("images/Screenshot_2024-01-13-17-33-34-026_com.android.chrome.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 450px;
   width: 450px;
- }
- .f3{
-  background: url('images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg');
+}
+.f3 {
+  background: url("images/Screenshot_2024-01-13-17-33-41-657_com.android.chrome.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 450px;
   width: 450px;
- }
- .f4{
-  background: url('images/HomeFilterVEiculos.PNG');
+}
+.f4 {
+  background: url("images/HomeFilterVEiculos.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 450px;
   margin: auto;
   width: 450px;
- }
+}
 
- .f5{
-  background: url('images/Results.PNG');
+.f5 {
+  background: url("images/Results.PNG");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 450px;
   width: 450px;
   margin: auto;
- }
+}
+
+.button {
+  align-self: "center";
+  cursor: "pointer";
+  text-align: center;
+  border-radius: 20px;
+  width: 40%;
+  margin-top: 15%;
+  padding: 10px;
+  font-size: 1.1em;
+  border: 2px solid #fff;
+}
+.button:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: #fff;
+  transition: 0.5s;
+}
